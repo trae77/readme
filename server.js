@@ -77,7 +77,7 @@ function questions() {
 // TODO: Create a function to write README file
 const writeToFile = (data) =>
     `
-${data.title} | ${badges[data.license]}
+${data.title} | ${data.license}
 ## Table of contents
 1. [Description](#Description)
 2. [Installation](#Installation)
@@ -96,7 +96,7 @@ ${data.title} | ${badges[data.license]}
 ## Credits
 - ${data.credits}
 ## License
-- ${badges[data.license]}
+- ${data.license}
 ## Contributing
 - ${data.contributing}
 ## Tests
